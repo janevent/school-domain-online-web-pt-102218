@@ -24,7 +24,8 @@ class School
     @roster[grade]
   end
   def sort 
-    @roster[@grade]
+    @roster.map do |k, v|
+      v.sort!
     end 
   end
   
