@@ -26,4 +26,7 @@ class School
   def sort 
     @roster.each do |g|
       g.sort
+    end 
+  end
+  
 end
